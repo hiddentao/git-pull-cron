@@ -1,0 +1,23 @@
+branches:
+  only:
+    - master
+
+language: node_js
+
+services:
+  - mongodb
+
+node_js:
+  - "0.10"
+
+before_script:
+  - "npm install -g grunt-cli"
+  - "npm install"
+
+script:
+  - grunt
+
+notifications:
+  email:
+    - ram@hiddentao.com
+

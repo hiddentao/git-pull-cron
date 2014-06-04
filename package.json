@@ -1,0 +1,40 @@
+{
+  "name": "git-pull-cron",
+  "version": "1.0.0",
+  "description": "Git clone a repo into a folder and schedule a cron job to pull updates",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hiddentao/git-folder-cron.git"
+  },
+  "keywords": [
+    "git",
+    "cron"
+  ],
+  "author": "Ramesh Nair <ram@hiddentao.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hiddentao/git-folder-cron/issues"
+  },
+  "homepage": "https://github.com/hiddentao/git-folder-cron",
+  "dependencies": {
+    "debug": "~0.8.1",
+    "rimraf": "~2.2.8",
+    "cron": "~1.0.4",
+    "gift": "~0.4.1",
+    "bluebird": "~1.2.4"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-mocha-test": "~0.11.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "matchdep": "~0.3.0",
+    "chai": "~1.9.1",
+    "sinon": "~1.10.2",
+    "then-fs": "~1.0.6",
+    "chai-as-promised": "~4.1.1"
+  }
+}
