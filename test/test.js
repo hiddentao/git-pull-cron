@@ -20,7 +20,7 @@ var gitPullCron = require('../index');
 var testDataFolder = path.join(__dirname, 'data'),
   testRepoFolder = path.join(testDataFolder, 'git-pull-cron');
 
-var testRemoteRepo = 'git://github.com/waigo/test-utils.git';
+var testRemoteRepo = 'git://github.com/hiddentao/git-pull-cron.git';
 
 var testCronSpecNever = '0 0 0 0 0 *';  // Jan 1st, midnight, i.e. never run
 
@@ -75,7 +75,7 @@ exports['git-pull-cron'] = {
             return JSON.parse(buf.toString()).name;
           });
       })
-      .should.eventually.eql('waigo-test-utils')
+      .should.eventually.eql('git-pull-cron')
       .and.notify(done);
   },
 
