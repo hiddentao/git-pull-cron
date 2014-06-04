@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/hiddentao/git-pull-cron.png)](http://travis-ci.org/hiddentao/git-pull-cron)
+
 # git-pull-cron
 
 Git clone a repo into a folder and schedule a cron job to pull updates from the 
