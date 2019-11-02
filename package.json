@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/hiddentao/git-folder-cron",
   "dependencies": {
-    "debug": "~0.8.1",
+    "debug": "~4.1.1",
     "rimraf": "~2.2.8",
     "cron": "~1.0.4",
     "gift": "~0.4.1",
